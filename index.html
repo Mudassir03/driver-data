@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deposit Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Deposit Form</h2>
+    <form id="depositForm">
+      <input type="text" id="name" placeholder="Full Name" required>
+      <input type="text" id="mobile" placeholder="Mobile No" required>
+      <input type="text" id="aadhar" placeholder="Aadhar No" required>
+      <input type="number" id="deposit" placeholder="Deposit Amount" required>
+      <input type="file" id="image" accept="image/*" required>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="msg"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
