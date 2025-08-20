@@ -1,4 +1,5 @@
-const scriptURL = "https://script.google.com/macros/s/AKfycbyMm2h4GOReC2HaBG93VBaSj_tzDL_ILxOa5yxSxJWDSWh6VJT4SZK-hv5jdzJLfDwr/exec";
+const scriptURL = "https://script.google.com/macros/s/AKfycbztf3qKhzIGAugO-_vrSrEfj03fra5Jrl_krY1ADjwujcr-Dd1G39sUIcEJY6a1MFPv/exec";
+
 
 document.getElementById("depositForm").addEventListener("submit", async (e) => {
   e.preventDefault();
